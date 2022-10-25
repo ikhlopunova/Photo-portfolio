@@ -21,7 +21,7 @@ h3 {
 
 h1 {
   font-size: 80px;
-  margin-top: 70px;
+  margin-top: 30px;
 }
 
 h2 {
@@ -46,7 +46,7 @@ p {
 .navigation-links {
   display: flex;
   margin-top: 40px;
-  justify-content: right;
+  justify-content: center;
 }
 
 .navigation-links a {
@@ -110,4 +110,9 @@ p {
 
 .photographer {
   width: 400px;
+  margin-top: 30px;
+}
+
+#container {
+  margin-top: 40px;
 }
