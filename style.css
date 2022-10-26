@@ -12,7 +12,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+p {
   text-align: center;
   margin: 0;
   color: var(--secondary-color);
@@ -20,12 +21,12 @@ h3 {
 }
 
 h1 {
-  font-size: 80px;
-  margin-top: 30px;
+  font-size: 75px;
+  margin-top: 20px;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 35px;
   margin-top: 20px;
 }
 
@@ -35,9 +36,7 @@ h3 {
 }
 
 p {
-  background: var(--secondary-color);
   padding: 20px;
-  border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
@@ -45,27 +44,23 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin-top: 0;
   justify-content: center;
 }
 
 .navigation-links a {
   margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
+  padding: 18px 40px;
   text-decoration: none;
-  text-transform: capitalize;
+  border-radius: 50px;
+  line-height: 17px;
 }
 
 .contact-link {
   background: var(--secondary-color);
   color: var(--primary-color);
-  width: 200px;
-  text-align: center;
-  padding: 18px 30px;
-  border-radius: 50px;
   font-family: montserrat;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .about-link {
@@ -102,7 +97,7 @@ p {
 #contact {
   margin-top: 30px;
 }
-@media (max-width: 800px) {
+@media (max-width: 810px) {
   h1 {
     font-size: 55px;
   }
@@ -113,7 +108,7 @@ p {
 
 .photographer {
   width: 400px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 #container {
