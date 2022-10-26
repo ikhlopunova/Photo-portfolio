@@ -41,12 +41,6 @@ h5 {
   margin-bottom: 30px;
   font-size: 16px;
 }
-/* p {
-  padding: 20px;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
-} */
 
 .navigation-links {
   display: flex;
@@ -54,7 +48,20 @@ h5 {
   justify-content: center;
 }
 
+.navigation-links-about {
+  display: flex;
+  margin-top: 50px;
+  justify-content: left;
+}
+
 .navigation-links a {
+  padding: 18px 40px;
+  text-decoration: none;
+  border-radius: 50px;
+  line-height: 17px;
+}
+
+.navigation-links-about a {
   margin: 20px;
   padding: 18px 40px;
   text-decoration: none;
@@ -63,6 +70,12 @@ h5 {
 }
 
 .contact-link {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  font-family: montserrat;
+  font-size: 18px;
+}
+.contact-link-about {
   background: var(--secondary-color);
   color: var(--primary-color);
   font-family: montserrat;
@@ -120,6 +133,10 @@ h5 {
 
 #container {
   margin-top: 40px;
+}
+
+#container-about {
+  margin-top: 60px;
 }
 
 .photo-bw {
