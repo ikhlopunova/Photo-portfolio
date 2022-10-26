@@ -42,6 +42,10 @@ h5 {
   font-size: 16px;
 }
 
+p {
+  margin-bottom: 50px;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 0;
@@ -91,7 +95,7 @@ h5 {
   color: var(--secondary-color);
   text-align: center;
   display: block;
-  margin-bottom: 20px;
+  margin: 30px;
 }
 
 .about-paragraphs {
@@ -103,14 +107,6 @@ h5 {
   margin: 10px;
 }
 
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
 .email-link:hover {
   text-decoration: underline;
 }
@@ -119,7 +115,7 @@ h5 {
 }
 @media (max-width: 810px) {
   h1 {
-    font-size: 55px;
+    font-size: 45px;
   }
   h2 {
     font-size: 35px;
@@ -159,7 +155,7 @@ h5 {
 .iryna {
   text-align: left;
   font-weight: 700;
-  font-size: 55px;
+  font-size: 50px;
   margin-top: 20;
 }
 
