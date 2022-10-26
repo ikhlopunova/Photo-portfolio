@@ -35,12 +35,18 @@ h3 {
   opacity: 0.7;
 }
 
-p {
+h5 {
+  color: var(--secondary-color);
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+/* p {
   padding: 20px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
-}
+} */
 
 .navigation-links {
   display: flex;
@@ -69,9 +75,10 @@ p {
 }
 
 .homepage-link {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   text-align: center;
   display: block;
+  margin-bottom: 20px;
 }
 
 .about-paragraphs {
@@ -113,4 +120,35 @@ p {
 
 #container {
   margin-top: 40px;
+}
+
+.photo-bw {
+  width: 500px;
+  margin-top: 40px;
+  border-radius: 100%;
+}
+
+.about,
+.camera {
+  color: #f65282;
+  text-align: left;
+  font-style: normal;
+}
+
+.camera {
+  margin-bottom: 50px;
+}
+
+.iryna {
+  text-align: left;
+  font-weight: 700;
+  font-size: 55px;
+  margin-top: 20;
+}
+
+.photocamera {
+  color: var(--secondary-color);
+  font-family: var(--font-family);
+  margin-left: 30px;
+  font-size: 18px;
 }
