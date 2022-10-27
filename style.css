@@ -99,8 +99,14 @@ p {
     font-size: 35px;
   }
 
-  h5 {
-    text-align: center;
+  .container-about h1 {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 1080px) {
+  .container-gallery h2 {
+    margin-top: 0;
   }
 }
 
@@ -109,11 +115,7 @@ p {
   margin-top: 40px;
 }
 
-#container {
-  margin-top: 40px;
-}
-
-#container-about {
+.container-about {
   margin-top: 20px;
 }
 
@@ -150,7 +152,7 @@ p {
   text-align: left;
   font-weight: 700;
   font-size: 50px;
-  margin-top: 20;
+  margin-top: 20px;
 }
 
 .photocamera {
@@ -171,4 +173,17 @@ p {
 .container-gallery h2 {
   margin-top: 80px;
   text-align: left;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: #0a58ca;
 }
