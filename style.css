@@ -6,7 +6,7 @@
 
 body {
   background-color: var(--primary-color);
-  margin: 60px auto;
+  margin: 40px auto;
   max-width: fit-content;
 }
 
@@ -53,17 +53,17 @@ p {
   justify-content: center;
 }
 
-.navigation-links-about {
-  display: flex;
-  margin-top: 30px;
-  justify-content: left;
-}
-
 .navigation-links a {
   padding: 18px 40px;
   text-decoration: none;
   border-radius: 50px;
   line-height: 17px;
+}
+
+.navigation-links-about {
+  display: flex;
+  margin-top: 30px;
+  justify-content: left;
 }
 
 .navigation-links-about a {
@@ -102,12 +102,6 @@ p {
 
   .container-about h1 {
     font-size: 35px;
-  }
-}
-
-@media (min-width: 1080px) {
-  .container-gallery h2 {
-    margin-top: 0;
   }
 }
 
@@ -199,4 +193,10 @@ footer .social-links a:hover {
 footer .github-link a {
   text-decoration: none;
   color: var(--secondary-color);
+}
+
+@media (min-width: 1080px) {
+  .container-gallery h2 {
+    margin-top: 0;
+  }
 }
