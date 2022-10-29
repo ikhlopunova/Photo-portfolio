@@ -195,6 +195,14 @@ footer .github-link a {
   color: var(--secondary-color);
 }
 
+.fish {
+  max-height: 300px;
+
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
 @media (min-width: 768px) and (max-width: 1199.98px) {
   .container-gallery h2 {
     margin-top: 0;
